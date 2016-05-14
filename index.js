@@ -21,7 +21,7 @@ app.on('ready', () => {
     mainWindow.hide()
   })
 
-  const iconPath = path.resolve('..', __dirname, 'tray-icon.png')
+  const iconPath = path.resolve('./tray-icon.png')
   trayIcon = new Tray(iconPath)
   trayIcon.on('click', (evt, bounds) => {
     positioner.move('trayCenter', bounds)
