@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt-compile": "^0.37.8"
+  },
+  "dependencies": {
+    "axios": "^0.11.0",
+    "electron-positioner": "^2.0.3",
+    "etch": "^0.6.0",
+    "etch-stateless": "^1.0.0",
+    "photon": "github:connors/photon"
+  }
+}
